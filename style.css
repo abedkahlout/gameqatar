@@ -1,0 +1,34 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* التحكم في ظهور الشاشات */
+.screen {
+    display: none; /* إخفاء الكل افتراضياً */
+}
+
+.active {
+    display: block; /* إظهار الشاشة النشطة فقط */
+}
+
+/* تصميم أزرار المناطق */
+.region-btn {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #2ecc71; /* لون مفتوح */
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.region-btn:disabled {
+    background-color: #bdc3c7; /* لون مغلق */
+    cursor: not-allowed;
+}
